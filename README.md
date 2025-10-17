@@ -2,7 +2,7 @@
 
 DynamicData is a modular pipeline for converting clinical case reports into structured representations of patient trajectories in the form of Monopath Directed Acyclic Graphs (DAGs). These graphs capture temporally ordered clinical states and transitions, supporting semantic modeling, similarity retrieval, and synthetic case generation.
 
-This repository provides the tools used in our NeurIPS 2025 paper, including:
+This repository provides the tools used in our paper, including:
 
 - A DSPy-driven pipeline for extracting DAGs from PubMed Central (PMC) HTML case reports
 - Ontology-grounded node and edge generation using large language models
