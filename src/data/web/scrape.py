@@ -13,7 +13,7 @@ from requests.exceptions import RequestException
 
 
 ncbi_api_key = os.environ.get("ncbi_api_key")
-Entrez.email = os.environ.get("anzhou812@gmail.com")
+Entrez.email = os.environ.get("email")
 Entrez.api_key = ncbi_api_key
 
 MAX_ARTICLES = 100
