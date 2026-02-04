@@ -216,28 +216,7 @@ def recursively_decompose_to_atomic_sentences(sentence: str, depth: int = 0, max
 
 
 
-# import pymupdf
-# import pymupdf4llm
 
-# raw_text=extract_text_from_pdf("/Users/aaronfanous/Desktop/AnsonProjects/DynamicData/samples/pdfs/case_reports_onc_2025.pdf")
-# doc = pymupdf.open("/Users/aaronfanous/Desktop/AnsonProjects/DynamicData/samples/pdfs/case_reports_onc_2025.pdf")
-
-# md= pymupdf4llm.to_markdown("/Users/aaronfanous/Desktop/AnsonProjects/DynamicData/samples/pdfs/case_reports_onc_2025.pdf")
-
-# print(md)
-# print(doc.get_toc())
-# print(lm("tell me which sections of the TOC beginning and end will have article info" +" TOC:" +str(doc.get_toc())+" \n      only give me answer as \{ 'begin':..., 'end':...  \}  "))
-# input_sentence = """ At 17 years post-initial diagnosis, he developed 
-# an oligometastatic liver lesion and a lung lesion and underwent partial hepatectomy"""
-
-# # this is not working, 
-# atomic_results = recursively_decompose_to_atomic_sentences(input_sentence)
-
-# for i, s in enumerate(atomic_results, 1):
-#     print(f"{i}. {s}")
-# context length is around 130k, pa
-
-## split
 
 
 
