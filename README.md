@@ -19,7 +19,7 @@ We release this framework and dataset to support research on clinically grounded
 ### Clone the Repository
 
 ```
-git clone https://github.com/DaneshjouLab/DynamicData.git <project_directory>
+git clone repourl <project_directory>
 
 
 cd <project_directory>
@@ -150,12 +150,11 @@ DynamicData/
 ## 🧪 Citation
 
 ```
-@misc{zhou2025monopath,
+@misc{
 title = {Monopath DAGs: Structuring Patient Trajectories from Clinical Case Reports},
-author = {Zhou, Anson and Fanous, Aaron and Bikia, Vasiliki and Xu, Sonnet and Agarwal, Ank A. and Fanous, Noah and Huang, Lyndon and Luu, Jonathan and Tolbert, Preston and Alsentzer, Emily and Daneshjou, Roxana},
 note = {Manuscript under review},
-year = {2025},
-url = {https://github.com/DaneshjouLab/DynamicData}
+year = {2026},
+
 }
 
 ---
